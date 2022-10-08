@@ -26,6 +26,9 @@ concurrency:
 jobs:
   # Build job
   build:
+    defaults:
+      run:
+        working-directory: blog-develop
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
