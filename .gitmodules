@@ -1,0 +1,3 @@
+[submodule "blog-develop"]
+	path = blog-develop
+	url = https://github.com/slowinsome/blog-develop.git
